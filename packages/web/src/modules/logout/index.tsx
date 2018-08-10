@@ -1,5 +1,5 @@
 import * as React from "react";
-import { LogoutController } from "@abb/controller";
+import { LogoutController } from "@tb/controller";
 import { RouteComponentProps } from "react-router-dom";
 
 import { CallLogout } from "./CallLogout";

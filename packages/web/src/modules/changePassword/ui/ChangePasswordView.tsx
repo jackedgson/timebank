@@ -4,8 +4,8 @@ import { withFormik, FormikProps, Field, Form } from "formik";
 import {
   NormalizedErrorMap,
   ForgotPasswordChangeMutationVariables
-} from "@abb/controller";
-import { changePasswordSchema } from "@abb/common";
+} from "@tb/controller";
+import { changePasswordSchema } from "@tb/common";
 
 import { InputField } from "../../shared/InputField";
 

@@ -4,7 +4,7 @@ import {
   emailNotLongEnough,
   invalidEmail,
   passwordNotLongEnough
-} from "@abb/common";
+} from "@tb/common";
 
 import { User } from "../../../entity/User";
 import { duplicateEmail } from "./errorMessages";

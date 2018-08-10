@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ViewListing } from "@abb/controller";
+import { ViewListing } from "@tb/controller";
 import { RouteComponentProps } from "react-router-dom";
 
 export class ViewListingConnector extends React.PureComponent<

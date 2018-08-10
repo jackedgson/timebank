@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Card } from "react-native-elements";
 import { Text, ScrollView } from "react-native";
-import { withFindListings, WithFindListings } from "@abb/controller";
+import { withFindListings, WithFindListings } from "@tb/controller";
 
 class C extends React.PureComponent<WithFindListings> {
   render() {

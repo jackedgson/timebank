@@ -5,17 +5,17 @@ export const sendEmail = async (
   url: string,
   linkText: string
 ) => {
-  nodemailer.createTestAccount((err1, account) => {
+  nodemailer.createTestAccount((err1) => {
     if (err1) {
       console.log(err1);
     }
     const transporter = nodemailer.createTransport({
-      host: account.smtp.host,
-      port: account.smtp.port,
-      secure: account.smtp.secure,
+      // @ts-ignore
+      host: 'smtp.ethereal.email',
+      port: '587',
       auth: {
-        user: account.user,
-        pass: account.pass
+        user: 'dt4rkz6xmhym65in@ethereal.email',
+        pass: 'kvZzPc2vXYRhYWTeam'
       }
     });
 
@@ -32,7 +32,7 @@ export const sendEmail = async (
         </html>`
     };
 
-    transporter.sendMail(message, (err, info) => {
+    transporter.sendMail(message, (err: any, info: any) => {
       if (err) {
         console.log("Error occurred. " + err.message);
       }

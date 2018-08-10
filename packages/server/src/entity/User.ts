@@ -7,7 +7,7 @@ import {
   BeforeInsert,
   OneToMany
 } from "typeorm";
-import { Listing } from "./Listing";
+import { Timer } from "./Timer";
 
 @Entity("users")
 export class User extends BaseEntity {
@@ -24,8 +24,8 @@ export class User extends BaseEntity {
   @Column("boolean", { default: false })
   forgotPasswordLocked: boolean;
 
-  @OneToMany(() => Listing, listing => listing.user)
-  listings: Listing[];
+  @OneToMany(() => Timer, timer => timer.user)
+  timers: Timer[];
 
   @BeforeInsert()
   async hashPasswordBeforeInsert() {

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { withFormik, FormikErrors, FormikProps, Field } from "formik";
-import { validUserSchema } from "@abb/common";
+import { validUserSchema } from "@tb/common";
 import { View, Text } from "react-native";
 import { Card, Button } from "react-native-elements";
 import { InputField } from "../../shared/InputField";

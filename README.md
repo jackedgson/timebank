@@ -12,6 +12,25 @@ A Fullstack GraphQL Airbnb Clone with React and React Native
 7. Website and App chat
 8. Feature requests
 
+## Install
+
+```sh
+yarn install
+```
+
+```sh
+brew install redis
+brew install postgresql
+```
+
+```sh
+createdb timebank-server
+redis-server
+```
+
+Install docker
+install expo
+
 ## Notes
 
 - Typescript

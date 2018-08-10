@@ -1,4 +1,4 @@
-import { validUserSchema } from "@abb/common";
+import { validUserSchema } from "@tb/common";
 
 import { ResolverMap } from "../../../types/graphql-utils";
 import { User } from "../../../entity/User";

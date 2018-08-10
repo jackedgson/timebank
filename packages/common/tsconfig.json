@@ -21,7 +21,7 @@
     "skipLibCheck": true,
     "baseUrl": "..",
     "paths": {
-      "@abb/*": ["./*/src"]
+      "@tb/*": ["./*/src"]
     }
   },
   "exclude": ["node_modules"],

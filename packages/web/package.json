@@ -1,5 +1,5 @@
 {
-  "name": "@abb/web",
+  "name": "@tb/web",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -15,8 +15,8 @@
     "typescript": "^2.9.1"
   },
   "dependencies": {
-    "@abb/common": "1.0.0",
-    "@abb/controller": "1.0.0",
+    "@tb/common": "1.0.0",
+    "@tb/controller": "1.0.0",
     "antd": "^3.6.2",
     "apollo-cache-inmemory": "^1.2.4",
     "apollo-client": "^2.3.4",
@@ -36,6 +36,7 @@
     "yup": "^0.25.1"
   },
   "scripts": {
+    "dev": "react-scripts-ts start",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",

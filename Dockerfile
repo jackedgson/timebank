@@ -1,6 +1,6 @@
-FROM node
+FROM node:9.8.0
 
-WORKDIR /abb
+WORKDIR /tb
 
 COPY ./package.json .
 COPY ./packages/server/package.json ./packages/server/

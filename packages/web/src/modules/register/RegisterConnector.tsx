@@ -1,5 +1,5 @@
 import * as React from "react";
-import { RegisterController } from "@abb/controller";
+import { RegisterController } from "@tb/controller";
 import { RouteComponentProps } from "react-router-dom";
 
 import { RegisterView } from "./ui/RegisterView";

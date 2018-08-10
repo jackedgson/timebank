@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Form as AntForm, Icon, Button } from "antd";
 import { withFormik, FormikProps, Field, Form } from "formik";
-import { NormalizedErrorMap } from "@abb/controller";
+import { NormalizedErrorMap } from "@tb/controller";
 
 import { InputField } from "../../shared/InputField";
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { LoginController } from "@abb/controller";
+import { LoginController } from "@tb/controller";
 import { RouteComponentProps } from "react-router-dom";
 
 import { LoginView } from "./ui/LoginView";

@@ -1,7 +1,7 @@
 import { Connection } from "typeorm";
 import * as Redis from "ioredis";
 import * as faker from "faker";
-import { passwordNotLongEnough } from "@abb/common";
+import { passwordNotLongEnough } from "@tb/common";
 
 import { User } from "../../../entity/User";
 import { TestClient } from "../../../utils/TestClient";

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Card } from "antd";
-import { withFindListings, WithFindListings } from "@abb/controller";
+import { withFindListings, WithFindListings } from "@tb/controller";
 import { Link } from "react-router-dom";
 
 const { Meta } = Card;

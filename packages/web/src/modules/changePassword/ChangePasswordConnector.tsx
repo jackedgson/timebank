@@ -1,6 +1,6 @@
 import * as React from "react";
 import { RouteComponentProps } from "react-router-dom";
-import { ChangePasswordController } from "@abb/controller";
+import { ChangePasswordController } from "@tb/controller";
 
 import { ChangePasswordView } from "./ui/ChangePasswordView";
 
